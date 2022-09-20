@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    overflow: hidden;
 }
 .logo{
     width: 140px;
@@ -128,6 +129,7 @@ nav ul li a:hover{
     background: #fff;
     display:grid;
     background: url(image/paperBackground.png);
+    overflow: hidden;
 }
 #gioiThieu .container {
     width: 90%;
