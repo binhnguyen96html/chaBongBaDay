@@ -2,9 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
     box-sizing: border-box;
 }
+
 
 /* banner */
 #banner{
@@ -29,7 +29,6 @@
     font-family: 'Paytone One', sans-serif;
     font-weight: 400;
     word-spacing: 10px;
-    /* color: rgb(44,52,65); */
     color: #142F43;
 }
 .banner-text div p{
@@ -41,12 +40,8 @@
 }
 .banner-text div p{
     font-size: 30px;
-    /* font-style: italic; */
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    /* color:#FD5D5D; */
-    /* color: #fff;; */
-    /* opacity: 1; */
 }
 .banner-text div p:hover{
     opacity: 0.8;
@@ -62,7 +57,6 @@
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    /* color: #FD5D5D; */
     color:#fff;
     font-family: 'Roboto', sans-serif;
     border: .5px solid #fbfbfb;
@@ -93,7 +87,6 @@
     position: fixed;
     top: 0;
     right: -250px;
-    /* background: #5F6F94; */
     background: #142F43;
     z-index: 2;
     border-radius: 10px;
@@ -162,7 +155,7 @@ nav ul li a:hover{
 
 
 #gioiThieu .container .item-1{
-    width: 60%;
+    width: 70%;
     height: 80%;
     /* border: 1px solid #000; */
     display: flex;
@@ -171,7 +164,7 @@ nav ul li a:hover{
 }
 #gioiThieu .container .item-1 .item-3{
     /* border: 1px solid #000; */
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0px auto;
     display: flex;
@@ -181,21 +174,16 @@ nav ul li a:hover{
     width: 100%;
     /* border: 1px solid #000 ; */
 }
-#gioiThieu .container .item-1 .item-3 .icon{
-    width: 20%;
-    /* border: 1px solid #000 ; */
-    margin: auto;
-    /* text-align: center; */
-}
 #gioiThieu .container .item-1 .item-3 .content{
-    width: 80%;
+    width: 100%;
     /* border: 1px solid #000 ; */
+    margin: 0px 20px 0px 0px;
 }
 
 
 #gioiThieu .container .item-1 .item-4{
     /* border: 1px solid #000; */
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0px auto 0px auto;
     display: flex;
@@ -205,21 +193,17 @@ nav ul li a:hover{
     width: 100%;
     /* border: 1px solid #000 ; */
 }
-#gioiThieu .container .item-1 .item-4 .icon{
-    width: 20%;
-    /* border: 1px solid #000 ; */
-    margin: auto;
-    /* text-align: center; */
-}
+
 #gioiThieu .container .item-1 .item-4 .content{
-    width: 80%;
+    width: 100%;
     /* border: 1px solid #000 ; */
+    margin: 0px 20px 0px 0px;
 }
 
 
 #gioiThieu .container .item-1 .item-5{
     /* border: 1px solid #000; */
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0px auto;
     display: flex;
@@ -229,15 +213,10 @@ nav ul li a:hover{
     width: 100%;
     /* border: 1px solid #000 ; */
 }
-#gioiThieu .container .item-1 .item-5 .icon{
-    width: 20%;
-    /* border: 1px solid #000 ; */
-    margin: auto;
-    /* text-align: center; */
-}
 #gioiThieu .container .item-1 .item-5 .content{
-    width: 80%;
+    width: 100%;
     /* border: 1px solid #000 ; */
+    margin: 0px 20px 0px 0px;
 }
 
 #gioiThieu .container .item-1 .item-3 .header,
@@ -261,12 +240,12 @@ nav ul li a:hover{
 
 #gioiThieu .container .item-2{
     /* border: 1px solid #000; */
-    width: 40%;
+    width: 30%;
     height: 80%;
     display: flex;
 }
 #gioiThieu .container .item-2 img{
-    width: 400px;
+    width: 350px;
     margin: auto;
     border-radius: 10px;
 }
@@ -301,7 +280,7 @@ nav ul li a:hover{
     height: 20%;
 }
 #sanPham .container .header h1{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Paytone One', sans-serif;
     text-align: center;
     margin-top: 15px;
@@ -414,7 +393,7 @@ nav ul li a:hover{
     color: #142F43;
     font-style: bold;
     padding-top: 5px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* end sanPham */
@@ -539,7 +518,7 @@ nav ul li a:hover{
 
 /* start lienHe */
 #lienHe {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 100vh;
     width: 100%;
     background: url(image/background1.9a.jpg);
@@ -548,66 +527,88 @@ nav ul li a:hover{
     background-position: center;
 }
 
-
-#lienHe .tab2 {
-    /* border: 1px solid #fff; */
-    width: 50%;
-    height: 45%;
+#lienHe .container{
+    /* border: 1px solid #000; */
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
     background: url(image/paper.png);
-    /* background: url(image/paperBackground.png); */
-    margin: 350px 0px 0px 500px;
-    cursor: pointer;
-    /* transition: 1s; */
-    transition: transform .5s;
+    margin: 260px auto;
 }
-
-#lienHe .tab2 .overplay {
-   /* background: url(image/paper.png); */
-   /* background: #142F43; */
-   background: url(image/sanPham1.png);
-   width: 150px;
-   height: 200px;
-   background-size: cover;
-   position: absolute;
-   /* transform: translateY(70%); */
-   transition: 1s;
-   opacity: 0;
-   left: 72%;
+#lienHe .container .header {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 20%;
 }
-#lienHe .tab2:hover .overplay {
-    transform: translateY(40%);
-    opacity: 1;
-}
-
-#lienHe .tab2 h1{
-    font-size: 35px;
+#lienHe .container .header h1{
+    font-size: 30px;
     font-family: 'Paytone One', sans-serif;
     text-align: center;
     color: #142F43;
-    /* color: #fff; */
     word-spacing: 10px;
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
 }
-#lienHe .tab2 h2{
-    font-size: 20px;
-    font-family: 'Paytone One', sans-serif;
-    color: #142F43;
-    word-spacing: 10px;
-    margin-left: 30px;
+
+#lienHe .container .icon{
+    /* border: 1px solid #000; */
+    width: 10%;
+    height: 80%;
 }
-#lienHe .tab2 p{
+#lienHe .container .icon .icon1{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+#lienHe .container .icon1 img{
+    width: 50px;
+   margin: auto;
+
+}
+#lienHe .container .content{
+    /* border: 1px solid #000; */
+    width: 90%;
+    height: 80%;
+}
+#lienHe .container .content .content1{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+#lienHe .container .content .content1 p{
     font-size: 18px;
     font-family: 'Reem Kufi Ink', sans-serif;
     color: #142F43;
     margin: 0px 0px 0px 5px;
 }
-#lienHe .tab2 p img{
-    width: 30px;
-    margin: 5px 10px 0px 30px;
-}
-#lienHe .tab2 p a{
+#lienHe .container .content .content1 p a{
     text-decoration: none;
 }
+
+
+
+
+#lienHe .container .overplay {
+   background: url(image/sanPham1.png);
+   width: 150px;
+   height: 200px;
+   background-size: cover;
+   position: absolute;
+   transition: 1s;
+   opacity: 0;
+   left: 70%;
+}
+#lienHe .container:hover .overplay {
+    transform: translateY(40%);
+    opacity: 1;
+}
+
+
+
 
 
 /* end lienHe */
