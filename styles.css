@@ -1,0 +1,613 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+}
+
+/* banner */
+#banner{
+    background: linear-gradient(rgba(238, 235, 233, 0.1),rgba(179, 177, 177, 0.5)), url("image/background1.2.jpg");;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top:4%;
+    left:10%;
+}
+.banner-text{
+    text-align: center;
+    color: #000;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    word-spacing: 10px;
+    /* color: rgb(44,52,65); */
+    color: #142F43;
+}
+.banner-text div p{
+    border: 1px solid #fff;
+    width: 550px;
+    margin: auto;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.banner-text div p{
+    font-size: 30px;
+    /* font-style: italic; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* color:#FD5D5D; */
+    /* color: #fff;; */
+    /* opacity: 1; */
+}
+.banner-text div p:hover{
+    opacity: 0.8;
+    color: rgb(136, 141, 141);
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    /* color: #FD5D5D; */
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    border: .5px solid #fbfbfb;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:  rgb(44,52,65);
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: #fff;
+}
+
+/* sideNav */
+#sideNav {
+    width: 250px;
+    height: 75vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /* background: #5F6F94; */
+    background: #142F43;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin:50px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    opacity: 1;   
+}
+
+#menuBtn {
+    position: fixed;
+    right:30px;
+    top:20px;
+    border-radius: 3px;
+    z-index:3;
+    cursor:pointer;
+    /* transition: right 0.3s; */
+    transition: .3s linear;
+}
+
+
+
+
+/* Start Gioi Thieu */
+#gioiThieu {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display:grid;
+    background: url(image/paperBackground.png);
+}
+#gioiThieu .container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+#gioiThieu .container .header{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 20%;
+}
+#gioiThieu .container .header h1{
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    color: #142F43;
+}
+
+
+#gioiThieu .container .item-1{
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+}
+#gioiThieu .container .item-1 .item-3{
+    /* border: 1px solid #000; */
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gioiThieu .container .item-1 .item-3 .header{
+    width: 100%;
+    /* border: 1px solid #000 ; */
+}
+#gioiThieu .container .item-1 .item-3 .icon{
+    width: 20%;
+    /* border: 1px solid #000 ; */
+    margin: auto;
+    /* text-align: center; */
+}
+#gioiThieu .container .item-1 .item-3 .content{
+    width: 80%;
+    /* border: 1px solid #000 ; */
+}
+
+
+#gioiThieu .container .item-1 .item-4{
+    /* border: 1px solid #000; */
+    width: 80%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gioiThieu .container .item-1 .item-4 .header{
+    width: 100%;
+    /* border: 1px solid #000 ; */
+}
+#gioiThieu .container .item-1 .item-4 .icon{
+    width: 20%;
+    /* border: 1px solid #000 ; */
+    margin: auto;
+    /* text-align: center; */
+}
+#gioiThieu .container .item-1 .item-4 .content{
+    width: 80%;
+    /* border: 1px solid #000 ; */
+}
+
+
+#gioiThieu .container .item-1 .item-5{
+    /* border: 1px solid #000; */
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gioiThieu .container .item-1 .item-5 .header{
+    width: 100%;
+    /* border: 1px solid #000 ; */
+}
+#gioiThieu .container .item-1 .item-5 .icon{
+    width: 20%;
+    /* border: 1px solid #000 ; */
+    margin: auto;
+    /* text-align: center; */
+}
+#gioiThieu .container .item-1 .item-5 .content{
+    width: 80%;
+    /* border: 1px solid #000 ; */
+}
+
+#gioiThieu .container .item-1 .item-3 .header,
+#gioiThieu .container .item-1 .item-4 .header,
+#gioiThieu .container .item-1 .item-5 .header{
+    font-family: 'Paytone One', sans-serif;
+    color: #142F43;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+#gioiThieu .container .item-1 .item-3 .content p,
+#gioiThieu .container .item-1 .item-4 .content p,
+#gioiThieu .container .item-1 .item-5 .content p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+
+#gioiThieu .container .item-2{
+    /* border: 1px solid #000; */
+    width: 40%;
+    height: 80%;
+    display: flex;
+}
+#gioiThieu .container .item-2 img{
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* End Gioi Thieu */
+
+
+
+
+/* start sanPham */
+#sanPham {
+    /* border: 1px solid #000; */
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display:grid;
+    
+}
+#sanPham .container {
+    /* border: 1px solid #000; */
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#sanPham .container .header{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 20%;
+}
+#sanPham .container .header h1{
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    color: #142F43;
+}
+
+
+#sanPham .container .content{
+    /* border: 1px solid rgb(145, 35, 35); */
+    width: 90%;
+    height: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+#sanPham .container .content .product1,
+#sanPham .container .content .product2,
+#sanPham .container .content .product3,
+#sanPham .container .content .product4 {
+    /* border: 1px solid rgb(145, 35, 35); */
+    width: 49%;
+    height: 49%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+.overplay1{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    /* cursor: pointer; */
+    margin: 130px 0 0 0;
+    background-image: url(image/paper.png);
+    opacity: 0;
+    transition: 1s;
+}
+#sanPham .container .content .product1 .overplay,
+#sanPham .container .content .product2 .overplay,
+#sanPham .container .content .product3 .overplay,
+#sanPham .container .content .product4 .overplay {
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 150px 0px 0px 0px;
+    bottom: 0;
+    transform: translateY(70%);
+    transition: 1s;
+    opacity: 0;
+}
+#sanPham .container .content .product1:hover .overplay,
+#sanPham .container .content .product2:hover .overplay,
+#sanPham .container .content .product3:hover .overplay,
+#sanPham .container .content .product4:hover .overplay {
+    /* bottom: 10%; */
+    opacity: 1;
+        bottom: 10%;
+}
+#sanPham .container .content .product1 .overplay hr,
+#sanPham .container .content .product2 .overplay hr,
+#sanPham .container .content .product3 .overplay hr,
+#sanPham .container .content .product4 .overplay hr {
+    width: 300px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin: auto;
+}
+
+#sanPham .container .content .product1 .overplay img,
+#sanPham .container .content .product2 .overplay img,
+#sanPham .container .content .product3 .overplay img,
+#sanPham .container .content .product4 .overplay img {
+    position: absolute;
+}
+#sanPham .container .content .product1:hover .overplay1,
+#sanPham .container .content .product2:hover .overplay1,
+#sanPham .container .content .product3:hover .overplay1,
+#sanPham .container .content .product4:hover .overplay1 {
+    opacity: 1;
+}
+
+
+#sanPham .container .content .product1 img,
+#sanPham .container .content .product2 img, 
+#sanPham .container .content .product3 img,
+#sanPham .container .content .product4 img{
+    width: 100%;
+}
+
+#sanPham .container .content .product1 .overplay h2,
+#sanPham .container .content .product2 .overplay h2,
+#sanPham .container .content .product3 .overplay h2,
+#sanPham .container .content .product4 .overplay h2 {
+    font-family: 'Paytone One', sans-serif;
+    padding-bottom: 5px;
+    color: #142F43; 
+    font-size: 28px;
+}
+#sanPham .container .content .product1 .overplay p,
+#sanPham .container .content .product2 .overplay p,
+#sanPham .container .content .product3 .overplay p,
+#sanPham .container .content .product4 .overplay p {
+    font-family: 'Paytone One', sans-serif;
+    padding-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    color: #142F43;
+    font-style: bold;
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+/* end sanPham */
+
+
+
+/* start danhGia */
+#danhGia {
+    height: 100vh;
+    width: 100%;
+    /* background: #142F43; */
+    background: rgb(245, 237, 220);
+    display:grid;
+}
+#danhGia .container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+#danhGia .container .header{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 20%;
+    justify-content: center;    
+    display: flex;
+}
+#danhGia .container .header h1{
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    color: #142F43;
+    text-align: center;
+    margin: 15px 0px;
+    word-spacing: 10px;
+}
+
+
+#danhGia .container .content {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 60%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#danhGia .container .content .review1,
+#danhGia .container .content .review2,
+#danhGia .container .content .review3 {
+    border: 0px solid #000;
+    width: 30%;
+    height: 100%;
+    box-shadow: #142F43;
+    overflow: hidden;
+    /* box-shadow: 0 10px 10px 0px  #5F6F94; */
+    cursor: pointer;
+    transition: transform .5s;
+    /* background: url(image/paper.png); */
+    background: url(image/paperBackground.png);
+    border-radius: 20px;
+}
+
+#danhGia .container .content .review1 .tab1,
+#danhGia .container .content .review2 .tab1,
+#danhGia .container .content .review3 .tab1{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 30%;
+}
+#danhGia .container .content .review1 .tab1 img,
+#danhGia .container .content .review2 .tab1 img,
+#danhGia .container .content .review3 .tab1 img {
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+#danhGia .container .content .review1 .tab1 .gif,
+#danhGia .container .content .review2 .tab1 .gif,
+#danhGia .container .content .review3 .tab1 .gif {
+    width: 10%;
+    float: left;
+    padding: 30px 0px;
+}
+#danhGia .container .content .review1 .tab1 p,
+#danhGia .container .content .review2 .tab1 p,
+#danhGia .container .content .review3 .tab1 p {
+    float: left;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+#danhGia .container .content .review1 .tab2,
+#danhGia .container .content .review2 .tab2,
+#danhGia .container .content .review3 .tab2{
+    clear: both;
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 70%;
+}
+#danhGia .container .content .review1 .tab2 p,
+#danhGia .container .content .review2 .tab2 p,
+#danhGia .container .content .review3 .tab2 p{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px 30px;
+}
+
+#danhGia .container .content .review1:hover,
+#danhGia .container .content .review2:hover,
+#danhGia .container .content .review3:hover {
+    transform: translateY(7px);
+}
+
+/* end danhGia */
+
+
+
+/* start lienHe */
+#lienHe {
+    border: 1px solid #000;
+    height: 100vh;
+    width: 100%;
+    background: url(image/background1.9a.jpg);
+    display:grid;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#lienHe .tab2 {
+    /* border: 1px solid #fff; */
+    width: 50%;
+    height: 45%;
+    background: url(image/paper.png);
+    /* background: url(image/paperBackground.png); */
+    margin: 350px 0px 0px 500px;
+    cursor: pointer;
+    /* transition: 1s; */
+    transition: transform .5s;
+}
+
+#lienHe .tab2 .overplay {
+   /* background: url(image/paper.png); */
+   /* background: #142F43; */
+   background: url(image/sanPham1.png);
+   width: 150px;
+   height: 200px;
+   background-size: cover;
+   position: absolute;
+   /* transform: translateY(70%); */
+   transition: 1s;
+   opacity: 0;
+   left: 72%;
+}
+#lienHe .tab2:hover .overplay {
+    transform: translateY(40%);
+    opacity: 1;
+}
+
+#lienHe .tab2 h1{
+    font-size: 35px;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    color: #142F43;
+    /* color: #fff; */
+    word-spacing: 10px;
+    margin-top: 10px;
+}
+#lienHe .tab2 h2{
+    font-size: 20px;
+    font-family: 'Paytone One', sans-serif;
+    color: #142F43;
+    word-spacing: 10px;
+    margin-left: 30px;
+}
+#lienHe .tab2 p{
+    font-size: 18px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #142F43;
+    margin: 0px 0px 0px 5px;
+}
+#lienHe .tab2 p img{
+    width: 30px;
+    margin: 5px 10px 0px 30px;
+}
+#lienHe .tab2 p a{
+    text-decoration: none;
+}
+
+
+/* end lienHe */
